@@ -1,0 +1,33 @@
+https://www.jenkins.io/doc/book/installing/linux/#debianubuntu
+
+# sudo apt install openjdk-8-jdk
+sudo apt install openjdk-11-jdk
+java -version
+sudo apt install git
+sudo apt install maven
+mvn -version
+curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee \
+  /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+sudo apt-get update
+sudo apt-get install jenkins
+
+sudo systemctl enable jenkins
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword 
+get the password and paste to http://localhost:8080/
+Install suggested plugins 
+Create First Admin User
+
+## Change Jenkins Port (use it when it is interfering with any program)
+change code /usr/lib/systemd/system/jenkins.service
+Environment="JENKINS_PORT=8085"
+and save
+systemctl daemon-reload
+sudo service jenkins restart
+sudo systemctl status jenkins
+
+If didnt work change
+/etc/default/jenkins
+change HTTP_PORT=8080

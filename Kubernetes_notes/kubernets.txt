@@ -1,0 +1,5 @@
+What is kubernetes - https://www.youtube.com/watch?v=cC46cg5FFAM
+How to run containers on Kubernetes - kubernetes(hanlde cluster of containers) -> docker(container) https://www.youtube.com/watch?v=_2fiMli8p3E
+pod - collection of multiple containers
+read later - https://www.youtube.com/watch?v=VQUZF6k6g88
+             https://www.youtube.com/watch?v=s_o8dwzRlu4

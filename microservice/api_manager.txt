@@ -1,0 +1,3 @@
+API GATEWAY -> LAMBDA -> Microservices
+Another Gateway - WSO2
+SSO - Single Sign on

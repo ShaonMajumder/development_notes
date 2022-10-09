@@ -1,6 +1,10 @@
 https://github.com/slatedocs/slate
 https://github.com/slatedocs/slate/wiki/Using-Slate-Natively
 
+
+https://stackoverflow.com/questions/70364903/superclass-mismatch-for-class-command
+https://stackoverflow.com/questions/6317980/you-have-already-activated-x-but-your-gemfile-requires-y
+
 Install Slate Natively :
 sudo apt install ruby ruby-dev build-essential libffi-dev zlib1g-dev liblzma-dev nodejs patch
 
@@ -27,3 +31,5 @@ sudo gem install thor
 
 You have already activated thor 1.2.1, but your Gemfile requires thor 1.1.0. Prepending `bundle exec` to your command may solve this.
 sudo bundle clean --force
+
+

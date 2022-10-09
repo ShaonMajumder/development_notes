@@ -1,0 +1,29 @@
+https://github.com/slatedocs/slate
+https://github.com/slatedocs/slate/wiki/Using-Slate-Natively
+
+Install Slate Natively :
+sudo apt install ruby ruby-dev build-essential libffi-dev zlib1g-dev liblzma-dev nodejs patch
+
+sudo gem update --system
+sudo gem install bundler
+*Note
+
+If you get the following error
+
+ERROR: Your RubyGems was installed trough APT, and upgrading it through RubyGems itself is unsupported.
+
+try the following commands instead:
+
+sudo apt-get update -y
+sudo apt-get install -y bundler
+
+git clone https://github.com/slatedocs/slate.git
+cd slate
+bundle install
+cd source
+bundle exec middleman build
+sudo dpkg -r --force-depends ruby-thor
+sudo gem install thor
+
+You have already activated thor 1.2.1, but your Gemfile requires thor 1.1.0. Prepending `bundle exec` to your command may solve this.
+sudo bundle clean --force

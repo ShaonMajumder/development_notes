@@ -1,6 +1,10 @@
 # Development Notes
 Author : shaon majumder
 
+## Online Tools
+- JSON Formater
+https://jsonformatter.curiousconcept.com/
+
 ## Bash Commands and Error Fix For Developers and Devops
 - git without sudo to current user
     ```bash
@@ -104,3 +108,23 @@ https://rapidapi.com/guides/http-interceptors-axios
 https://rapidapi.com/guides/request-headers-axios
 - Using Axios to set request headers
 https://blog.logrocket.com/using-axios-set-request-headers/
+- React Global State - Small State Management For authentication and other purposes
+https://aaronshivers.com/global-state-in-react
+- Protected Routes
+https://www.makeuseof.com/create-protected-route-in-react/
+
+### Redux State Mangement Notes
+We use redux when we have to manage state for lage data for crud or other applications
+- https://redux.js.org/tutorials/essentials/part-1-overview-concepts
+- https://redux.js.org/introduction/getting-started
+- https://redux-toolkit.js.org/usage/usage-guide
+- https://github.com/SajalAhmed/Mini-Twitter
+
+## Laravel Notes
+- Sanctum
+https://laravel.com/docs/8.x/sanctum
+- Sanctum SPA
+https://laravel.com/docs/8.x/sanctum#spa-authentication
+- Send Bearer Token with Axios
+  * https://www.folkstalk.com/2022/09/axios-send-bearer-token-with-code-examples.html
+  * https://stackoverflow.com/questions/40988238/sending-the-bearer-token-with-axios

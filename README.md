@@ -198,20 +198,28 @@ https://laravel.com/docs/8.x/sanctum#spa-authentication
   * https://www.folkstalk.com/2022/09/axios-send-bearer-token-with-code-examples.html
   * https://stackoverflow.com/questions/40988238/sending-the-bearer-token-with-axios
 
+-----------
 ## Design Principles
+-----------
 - Open-Closed Principle - https://blog.mayallo.com/open-closed-principle-the-hard-parts
 - Dependency Injection
 - loose coupling and tight coupling with laravel
 
+-----------
 ## Backend Mechanisms
+-----------
 How SQL works under the hood - https://blog.bytebytego.com/p/ep20-how-sql-works-under-the-hood?utm_campaign=post&utm_medium=web
 
+-----------
 ## Microservice
+-----------
 API GATEWAY -> LAMBDA -> Microservices
 Another Gateway - WSO2
 SSO - Single Sign on
 
+-----------
 ## Kubernetes
+-----------
 What is kubernetes - https://www.youtube.com/watch?v=cC46cg5FFAM<br>
 How to run containers on Kubernetes - kubernetes(hanlde cluster of containers) -> docker(container) https://www.youtube.com/watch?v=_2fiMli8p3E<br>
 pod - collection of multiple containers<br>
@@ -219,7 +227,9 @@ read later - https://www.youtube.com/watch?v=VQUZF6k6g88<br>
              https://www.youtube.com/watch?v=s_o8dwzRlu4<br>
 
 
+-----------
 ## Docker
+-----------
 Reading
 - https://docs.docker.com/engine/install/ubuntu/
 

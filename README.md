@@ -1,19 +1,27 @@
 # Development Notes
 Author : shaon majumder
 
+----------------
 ## Online Tools
+----------------
 - JSON Formater
 https://jsonformatter.curiousconcept.com/
 
+----------------
 ## Bash Commands and Error Fix For Developers and Devops
+----------------
 - git without sudo to current user
     ```bash
     sudo chown -R $USER:$USER .
     ```
+----------------
 ## Markdown Cheetsheet
+----------------
 https://wordpress.com/support/markdown-quick-reference/
 
+----------------
 ## Git Commands
+----------------
 ```bash
 git add .
 git commit -m "message"
@@ -28,7 +36,9 @@ git config user.email "you@example.com"
 git config user.name "Your Name"
 ```
 
+----------------
 ## Jenkins Setup
+----------------
 https://www.jenkins.io/doc/book/installing/linux/#debianubuntu
 
 Install jdk
@@ -101,7 +111,9 @@ If didnt work edit file
 `/etc/default/jenkins` 
 change `HTTP_PORT=8080`
 
+---------------
 ## Slate Setup
+---------------
 Reading
 - https://github.com/slatedocs/slate
 - https://github.com/slatedocs/slate/wiki/Using-Slate-Natively
@@ -151,7 +163,9 @@ You have already activated thor 1.2.1, but your Gemfile requires thor 1.1.0. Pre
 sudo bundle clean --force
 ```
 
+----------------
 ## React Notes
+----------------
 - HTTP Interceptors
 https://rapidapi.com/guides/http-interceptors-axios
 - append default headers of axios for single request
@@ -170,7 +184,9 @@ We use redux when we have to manage state for lage data for crud or other applic
 - https://redux-toolkit.js.org/usage/usage-guide
 - https://github.com/SajalAhmed/Mini-Twitter
 
+----------------
 ## Laravel Notes
+----------------
 - Sanctum
 https://laravel.com/docs/8.x/sanctum
 - Sanctum SPA

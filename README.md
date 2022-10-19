@@ -17,7 +17,8 @@ https://jsonformatter.curiousconcept.com/
 ----------------
 ## Markdown Cheetsheet
 ----------------
-https://wordpress.com/support/markdown-quick-reference/
+- https://wordpress.com/support/markdown-quick-reference/
+- https://www.markdownguide.org/basic-syntax/
 
 ----------------
 ## Git Commands
@@ -187,6 +188,8 @@ We use redux when we have to manage state for lage data for crud or other applic
 ----------------
 ## Laravel Notes
 ----------------
+- API Structure
+- Smell Code - https://refactoring.guru/refactoring/smells
 - Sanctum
 https://laravel.com/docs/8.x/sanctum
 - Sanctum SPA
@@ -194,3 +197,11 @@ https://laravel.com/docs/8.x/sanctum#spa-authentication
 - Send Bearer Token with Axios
   * https://www.folkstalk.com/2022/09/axios-send-bearer-token-with-code-examples.html
   * https://stackoverflow.com/questions/40988238/sending-the-bearer-token-with-axios
+
+## Design Principles
+- Open-Closed Principle - https://blog.mayallo.com/open-closed-principle-the-hard-parts
+- Dependency Injection
+- loose coupling and tight coupling with laravel
+
+## Backend Mechanisms
+How SQL works under the hood - https://blog.bytebytego.com/p/ep20-how-sql-works-under-the-hood?utm_campaign=post&utm_medium=web

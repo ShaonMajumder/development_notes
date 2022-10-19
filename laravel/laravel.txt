@@ -1,0 +1,1 @@
+loose coupling and tight coupling with laravel

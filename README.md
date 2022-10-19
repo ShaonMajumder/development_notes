@@ -102,3 +102,5 @@ change `HTTP_PORT=8080`
 https://rapidapi.com/guides/http-interceptors-axios
 - append default headers of axios for single request
 https://rapidapi.com/guides/request-headers-axios
+- Using Axios to set request headers
+https://blog.logrocket.com/using-axios-set-request-headers/

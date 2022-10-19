@@ -6,6 +6,8 @@ Author : shaon majumder
     ```bash
     sudo chown -R $USER:$USER .
     ```
+## Markdown Cheetsheet
+https://wordpress.com/support/markdown-quick-reference/
 
 ## Git Commands
 ```bash

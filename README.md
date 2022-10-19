@@ -101,6 +101,56 @@ If didnt work edit file
 `/etc/default/jenkins` 
 change `HTTP_PORT=8080`
 
+## Slate Setup
+Reading
+- https://github.com/slatedocs/slate
+- https://github.com/slatedocs/slate/wiki/Using-Slate-Natively
+- https://stackoverflow.com/questions/70364903/superclass-mismatch-for-class-command
+- https://stackoverflow.com/questions/6317980/you-have-already-activated-x-but-your-gemfile-requires-y
+
+### Install Slate Natively - Ubuntu
+```bash
+sudo apt install ruby ruby-dev build-essential libffi-dev zlib1g-dev liblzma-dev nodejs patch
+```
+install bundler
+```bash
+sudo gem update --system
+sudo gem install bundler
+```
+
+**Note**
+
+If you get the following error<br>
+ERROR: Your RubyGems was installed trough APT, and upgrading it through RubyGems itself is unsupported. <br>
+try the following commands instead:
+```bash
+sudo apt-get update -y
+sudo apt-get install -y bundler
+```
+
+Downloading
+```bash
+git clone https://github.com/slatedocs/slate.git
+cd slate
+```
+Building gem packages
+```bash
+bundle install
+cd source
+bundle exec middleman build
+```
+
+Thor errors
+```bash
+sudo dpkg -r --force-depends ruby-thor
+sudo gem install thor
+```
+
+You have already activated thor 1.2.1, but your Gemfile requires thor 1.1.0. Prepending `bundle exec` to your command may solve this.
+```bash
+sudo bundle clean --force
+```
+
 ## React Notes
 - HTTP Interceptors
 https://rapidapi.com/guides/http-interceptors-axios

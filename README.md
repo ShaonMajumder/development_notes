@@ -96,3 +96,9 @@ sudo systemctl status jenkins
 If didnt work edit file
 `/etc/default/jenkins` 
 change `HTTP_PORT=8080`
+
+## React Notes
+- HTTP Interceptors
+https://rapidapi.com/guides/http-interceptors-axios
+- append default headers of axios for single request
+https://rapidapi.com/guides/request-headers-axios

@@ -213,9 +213,9 @@ How SQL works under the hood - https://blog.bytebytego.com/p/ep20-how-sql-works-
 -----------
 ## Microservice
 -----------
-API GATEWAY -> LAMBDA -> Microservices
-Another Gateway - WSO2
-SSO - Single Sign on
+- API GATEWAY -> LAMBDA -> Microservices
+- Another Gateway - WSO2
+- SSO - Single Sign on
 
 -----------
 ## Kubernetes

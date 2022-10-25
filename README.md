@@ -199,6 +199,12 @@ https://laravel.com/docs/8.x/sanctum#spa-authentication
   * https://stackoverflow.com/questions/40988238/sending-the-bearer-token-with-axios
 
 -----------
+## Mysql Notes
+-----------
+- Import Database from Console
+mysql -u user -p database_name < 'sql_file_path'
+
+-----------
 ## Design Principles
 -----------
 - Open-Closed Principle - https://blog.mayallo.com/open-closed-principle-the-hard-parts

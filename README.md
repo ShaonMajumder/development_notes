@@ -1,11 +1,17 @@
 # Development Notes
 Author : shaon majumder
 
+<h1>DevOps</h1>
+<br>
+<br>
+
 ----------------
 ## Online Tools
 ----------------
 - JSON Formater
 https://jsonformatter.curiousconcept.com/
+<br>
+<br>
 
 ----------------
 ## Bash Commands and Error Fix For Developers and Devops
@@ -14,11 +20,16 @@ https://jsonformatter.curiousconcept.com/
     ```bash
     sudo chown -R $USER:$USER .
     ```
+<br>
+
 ----------------
 ## Markdown Cheetsheet
 ----------------
 - https://wordpress.com/support/markdown-quick-reference/
 - https://www.markdownguide.org/basic-syntax/
+- create space between paragraph markdown - https://stackoverflow.com/questions/20543454/create-two-blank-lines-in-markdown
+<br>
+<br>
 
 ----------------
 ## Git Commands
@@ -36,6 +47,7 @@ git config credential.helper store
 git config user.email "you@example.com"
 git config user.name "Your Name"
 ```
+<br>
 
 ----------------
 ## Jenkins Setup
@@ -112,15 +124,12 @@ If didnt work edit file
 `/etc/default/jenkins` 
 change `HTTP_PORT=8080`
 
----------------
-## Slate Setup
----------------
-Reading
-- https://github.com/slatedocs/slate
-- https://github.com/slatedocs/slate/wiki/Using-Slate-Natively
-- https://stackoverflow.com/questions/70364903/superclass-mismatch-for-class-command
-- https://stackoverflow.com/questions/6317980/you-have-already-activated-x-but-your-gemfile-requires-y
+<br>
+<br>
 
+---------------
+## Slate Notes
+---------------
 ### Install Slate Natively - Ubuntu
 ```bash
 sudo apt install ruby ruby-dev build-essential libffi-dev zlib1g-dev liblzma-dev nodejs patch
@@ -164,74 +173,28 @@ You have already activated thor 1.2.1, but your Gemfile requires thor 1.1.0. Pre
 sudo bundle clean --force
 ```
 
-----------------
-## React Notes
-----------------
-- HTTP Interceptors
-https://rapidapi.com/guides/http-interceptors-axios
-- append default headers of axios for single request
-https://rapidapi.com/guides/request-headers-axios
-- Using Axios to set request headers
-https://blog.logrocket.com/using-axios-set-request-headers/
-- React Global State - Small State Management For authentication and other purposes
-https://aaronshivers.com/global-state-in-react
-- Protected Routes
-https://www.makeuseof.com/create-protected-route-in-react/
+Further Tutorial For Slate - https://qomarullah.medium.com/create-api-docs-using-slate-3b90565333d0
 
-### Redux State Mangement Notes
-We use redux when we have to manage state for lage data for crud or other applications
-- https://redux.js.org/tutorials/essentials/part-1-overview-concepts
-- https://redux.js.org/introduction/getting-started
-- https://redux-toolkit.js.org/usage/usage-guide
-- https://github.com/SajalAhmed/Mini-Twitter
+Reading
+- https://github.com/slatedocs/slate
+- https://github.com/slatedocs/slate/wiki/Using-Slate-Natively
+- https://stackoverflow.com/questions/70364903/superclass-mismatch-for-class-command
+- https://stackoverflow.com/questions/6317980/you-have-already-activated-x-but-your-gemfile-requires-y
 
-----------------
-## Laravel Notes
-----------------
-- API Structure
-- Smell Code - https://refactoring.guru/refactoring/smells
-- Sanctum
-https://laravel.com/docs/8.x/sanctum
-- Sanctum SPA
-https://laravel.com/docs/8.x/sanctum#spa-authentication
-- Send Bearer Token with Axios
-  * https://www.folkstalk.com/2022/09/axios-send-bearer-token-with-code-examples.html
-  * https://stackoverflow.com/questions/40988238/sending-the-bearer-token-with-axios
-
------------
-## Mysql Notes
------------
-- Import Database from Console
-mysql -u user -p database_name < 'sql_file_path'
-
------------
-## Design Principles
------------
-- Open-Closed Principle - https://blog.mayallo.com/open-closed-principle-the-hard-parts
-- Dependency Injection
-- loose coupling and tight coupling with laravel
-
------------
-## Backend Mechanisms
------------
-How SQL works under the hood - https://blog.bytebytego.com/p/ep20-how-sql-works-under-the-hood?utm_campaign=post&utm_medium=web
-
------------
-## Microservice
------------
-- API GATEWAY -> LAMBDA -> Microservices
-- Another Gateway - WSO2
-- SSO - Single Sign on
+<br>
+<br>
 
 -----------
 ## Kubernetes
 -----------
-What is kubernetes - https://www.youtube.com/watch?v=cC46cg5FFAM<br>
-How to run containers on Kubernetes - kubernetes(hanlde cluster of containers) -> docker(container) https://www.youtube.com/watch?v=_2fiMli8p3E<br>
-pod - collection of multiple containers<br>
-read later - https://www.youtube.com/watch?v=VQUZF6k6g88<br>
-             https://www.youtube.com/watch?v=s_o8dwzRlu4<br>
-
+- What is kubernetes - https://www.youtube.com/watch?v=cC46cg5FFAM<br>
+- How to run containers on Kubernetes - kubernetes(hanlde cluster of containers) -> docker(container) https://www.youtube.com/watch?v=_2fiMli8p3E<br>
+- pod - collection of multiple containers<br>
+- read later
+  - https://www.youtube.com/watch?v=VQUZF6k6g88<br>
+  - https://www.youtube.com/watch?v=s_o8dwzRlu4<br>
+<br>
+<br>
 
 -----------
 ## Docker
@@ -254,6 +217,99 @@ sudo service docker start
 sudo docker run hello-world
 ```
 
-
 have to read 
 - https://docs.docker.com/get-started/
+
+<br>
+<br>
+
+# Senior Software Engineer Stuffs
+<br>
+
+<br>
+<br>
+<br>
+
+## Clean Code
+-----------
+- Smell Code - https://refactoring.guru/refactoring/smells
+<br>
+<br>
+
+-----------
+## Design Principles
+-----------
+- Open-Closed Principle - https://blog.mayallo.com/open-closed-principle-the-hard-parts
+- Dependency Injection
+- loose coupling and tight coupling with laravel
+<br>
+<br>
+
+
+----------------
+## React Notes
+----------------
+- ### React Basic Projects 
+  - React CV Inspiration
+    * https://github.com/tasmidur/react-resume
+    * https://tasmidur.netlify.app/
+    * https://react-resume-rho.vercel.app/
+- ### Changing Header For A Single Request
+  - HTTP Interceptors - 
+  https://rapidapi.com/guides/http-interceptors-axios
+  - append default headers of axios for single request
+  https://rapidapi.com/guides/request-headers-axios
+  - Using Axios to set request headers
+  https://blog.logrocket.com/using-axios-set-request-headers/
+- React Global State - Small State Management For authentication and other purposes
+https://aaronshivers.com/global-state-in-react
+- Protected Routes
+https://www.makeuseof.com/create-protected-route-in-react/
+
+- ### Redux State Mangement Notes
+  We use redux when we have to manage state for lage data for crud or other applications
+  - https://redux.js.org/tutorials/essentials/part-1-overview-concepts
+  - https://redux.js.org/introduction/getting-started
+  - https://redux-toolkit.js.org/usage/usage-guide
+  - https://github.com/SajalAhmed/Mini-Twitter
+
+<br>
+<br>
+
+----------------
+## Laravel Notes
+----------------
+- API Structure
+- Sanctum
+https://laravel.com/docs/8.x/sanctum
+- Sanctum SPA
+https://laravel.com/docs/8.x/sanctum#spa-authentication
+- Send Bearer Token with Axios
+  * https://www.folkstalk.com/2022/09/axios-send-bearer-token-with-code-examples.html
+  * https://stackoverflow.com/questions/40988238/sending-the-bearer-token-with-axios
+<br>
+<br>
+
+-----------
+## Mysql Notes
+-----------
+- Import Database from Console
+mysql -u user -p database_name < 'sql_file_path'
+<br>
+<br>
+
+-----------
+## Backend Mechanisms
+-----------
+How SQL works under the hood - https://blog.bytebytego.com/p/ep20-how-sql-works-under-the-hood?utm_campaign=post&utm_medium=web
+<br>
+<br>
+
+-----------
+## Microservice
+-----------
+- API GATEWAY -> LAMBDA -> Microservices
+- Another Gateway - WSO2
+- SSO - Single Sign on
+<br>
+<br>

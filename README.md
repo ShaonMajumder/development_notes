@@ -27,6 +27,21 @@ https://jsonformatter.curiousconcept.com/
 <br>
 
 ----------------
+
+## API Must Know
+### HTTP Methods
+
+| HTTP Verb | CRUD | Entire Collection (e.g. /customers) | Specific Item (e.g. /customers/{id}) |
+| ------- | ---- | ------------------------------------- | ------------------------------------ |
+| POST | Create | 201 (Created), 'Location' header with link to /customers/{id} containing new ID. | 404 (Not Found), 409 (Conflict) if resource already exists.. |
+| GET | Read | 200 (OK), list of customers. Use pagination, sorting and filtering to navigate big lists. | 200 (OK), single customer. 404 (Not Found), if ID not found or invalid. |
+| PUT | Update/Replace | 405 (Method Not Allowed), unless you want to update/replace every resource in the entire collection. | 200 (OK) or 204 (No Content). 404 (Not Found), if ID not found or invalid. |
+| PATCH | Update/Modify | 405 (Method Not Allowed), unless you want to modify the collection itself. | 200 (OK) or 204 (No Content). 404 (Not Found), if ID not found or invalid. |
+| DELETE | Delete | 405 (Method Not Allowed), unless you want to delete the whole collection—not often desirable. | 200 (OK). 404 (Not Found), if ID not found or invalid. |
+
+Links
+- https://www.restapitutorial.com/lessons/httpmethods.html#:~:text=The%20primary%20or%20most%2Dcommonly,but%20are%20utilized%20less%20frequently.
+
 ## Markdown Cheetsheet
 ----------------
 - https://wordpress.com/support/markdown-quick-reference/
@@ -53,6 +68,11 @@ git config user.email "you@example.com"
 git config user.name "Your Name"
 ```
 <br>
+
+----------------
+## Elastic Search
+----------------
+Elastic Search integration in laravel application - https://www.youtube.com/watch?v=aCpsSIY_2eU
 
 ----------------
 ## Jenkins Setup

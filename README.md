@@ -17,9 +17,13 @@ https://jsonformatter.curiousconcept.com/
 ## Bash Commands and Error Fix For Developers and Devops
 ----------------
 - git without sudo to current user
-    ```bash
-    sudo chown -R $USER:$USER .
-    ```
+  ```bash
+  sudo chown -R $USER:$USER .
+  ```
+- for hidden folders like .git
+  ```bash
+  sudo chown -hR $USER:$USER .
+  ```
 <br>
 
 ----------------
@@ -27,6 +31,7 @@ https://jsonformatter.curiousconcept.com/
 ----------------
 - https://wordpress.com/support/markdown-quick-reference/
 - https://www.markdownguide.org/basic-syntax/
+- https://www.markdownguide.org/extended-syntax/
 - create space between paragraph markdown - https://stackoverflow.com/questions/20543454/create-two-blank-lines-in-markdown
 <br>
 <br>

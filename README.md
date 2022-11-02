@@ -305,6 +305,7 @@ https://www.makeuseof.com/create-protected-route-in-react/
 ## Laravel Notes
 ----------------
 -Translation 
+  - https://github.com/barryvdh/laravel-translation-manager#readme
   - https://github.com/Laravel-Lang/lang
   - https://laravel-lang.com/
 - API Structure

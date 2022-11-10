@@ -73,6 +73,7 @@ git config user.name "Your Name"
 ## Elastic Search
 ----------------
 Elastic Search integration in laravel application - https://www.youtube.com/watch?v=aCpsSIY_2eU
+Logstash - https://www.elastic.co/logstash/#:~:text=Logstash%20is%20a%20free%20and,to%20your%20favorite%20%22stash.%22
 
 ----------------
 ## Jenkins Setup
@@ -308,6 +309,7 @@ https://www.makeuseof.com/create-protected-route-in-react/
   - https://github.com/barryvdh/laravel-translation-manager#readme
   - https://github.com/Laravel-Lang/lang
   - https://laravel-lang.com/
+  - https://dev.to/jeromew90/how-to-create-a-multilingual-project-in-laravel-internationalization-i18n-11ol
 - API Structure
 - Sanctum
 https://laravel.com/docs/8.x/sanctum

@@ -1,1 +1,30 @@
-loose coupling and tight coupling with laravel
+# loose coupling and tight coupling with laravel
+
+# Enabling phpmyadmin from remote
+cd /etc/apache2/conf-enabled
+code phpmyadmin.conf
+Edit >
+    <Directory /usr/share/phpmyadmin/templates>
+        Require all denied
+    </Directory>
+    <Directory /usr/share/phpmyadmin/libraries>
+        Require all denied
+    </Directory>
+
+    To >
+    <Directory /usr/share/phpmyadmin/templates>
+        Require all granted
+    </Directory>
+    <Directory /usr/share/phpmyadmin/libraries>
+        Require all granted
+    </Directory>
+
+sudo service apache2 restart
+
+
+Appurl go to localhost to user
+make mysql user acesss local to remote
+
+UPDATE mysql.user SET Host='%' WHERE Host='localhost' AND User='shaon';
+GRANT ALL PRIVILEGES ON links.* TO 'shaon'@'%';
+FLUSH PRIVILEGES;
